@@ -1,22 +1,60 @@
+header{
+    background-color: rgb(50, 59, 76);;
+    height: 56px;
+    padding-bottom: 1rem;
+
+}
+
 main{
 display: flex;
 flex-wrap: wrap;
     width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 .padre{
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     text-align:  left;
     flex-direction: column;
+    background-color: rgb(50, 59, 76);
+    flex-direction:column ;
+    color: aliceblue; 
+    padding: 50px 50px;
 
 }
-.principal{
+.right{
     width: 60%;
-    color: red;
-    height: 40px;
+    display: flex;
+    color: rgb(67, 79, 100);;
+    
+    float: right;
 }
 .habdista{
 
     width: 20%;
+}
+#foto{
+
+    width: 15rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border-radius: 60%;
+}
+
+
+footer {
+    background-color: rgb(50, 59, 76);;
+
+    
+   
+    text-align: center;
+
 }
